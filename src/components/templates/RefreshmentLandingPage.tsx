@@ -77,10 +77,10 @@ export default function RefreshmentLandingPage({ children, title }: { children?:
                         <div className={`${styles.refreshmentHeader} remove-background-color`}>
                             <Header logo="hide" />
                         </div>
-                        <div className="container container-lg px-0 px-lg-4">
+                        <div className="container container-lg">
                             <div className="row justify-content-center">
                                 <div className="col-12 col-lg-6 order-2 order-lg-1 post-slide-hide">
-                                    <div className="px-4 px-lg-0 pt-0 pt-lg-4 pb-5 pb-md-4 mb-4 mb-md-0">
+                                    <div className="pt-0 pt-lg-4 pb-5 pb-md-4 mb-4 mb-md-0">
                                         <div className="d-none d-lg-block">
                                             <div className="mb-5 d-none d-md-block">
                                                 <Logo variant="grey" />
@@ -96,7 +96,7 @@ export default function RefreshmentLandingPage({ children, title }: { children?:
                                         <DataCollectedBox />
                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-6 order-1 order-lg-2 px-0 px-lg-5">
+                                <div className="col-12 col-lg-6 order-1 order-lg-2">
                                     <Vector />
                                 </div>
                             </div>

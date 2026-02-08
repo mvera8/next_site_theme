@@ -15,7 +15,7 @@ export default function Header({ logo = "show" }: { logo?: "show" | "hide" }) {
     return (
         <>
             <header className="remove-background-color text-nowrap position-relative">
-                <nav className="navbar navbar-expand-md mb-0 text-nowrap py-2 py-md-4">
+                <nav className="navbar navbar-expand-md mb-2 text-nowrap py-2 py-md-4">
                     <div className="container">
                         <div className={`py-2 post-slide-show post-slide-change ${logo === "hide" ? "d-block d-md-none" : ""}`}>
                             <Logo />
