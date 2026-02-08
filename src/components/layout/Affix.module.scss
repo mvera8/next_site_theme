@@ -1,0 +1,49 @@
+.Affix {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+    @media (min-width: 767.98px) {
+        width: auto;
+    }
+
+    &__content {
+        animation: slideInFromBottom 0.5s ease-out forwards;
+        box-shadow: 0 -3px 8px 0 #a9aee04d;
+
+        @media (min-width: 767.98px) {
+            animation: slideInFromBottom 0.5s ease-out forwards;
+            box-shadow: 0 0 40px 0 #a9aee04d;
+
+            @media (min-width: 767.98px) {
+                border-radius: 50rem;
+                animation: slideInFromRight 0.5s ease-out forwards;
+                width: 46rem;
+            }
+        }
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

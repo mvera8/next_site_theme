@@ -1,0 +1,19 @@
+[
+    {
+        "path": "types-of-housing-assistance",
+        "template": "PostPage",
+        "metadata": {
+            "title": "Types of Housing Assistance",
+            "description": "Learn about different types..."
+        }
+    },
+    {
+        "path": "section-8-voucher-information-2",
+        "template": "PostPage"
+    },
+    {
+        "path": "vec-crm-irs-refund",
+        "template": "B2bPage",
+        "vector": "12345"
+    }
+]

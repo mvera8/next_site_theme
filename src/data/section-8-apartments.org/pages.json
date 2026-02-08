@@ -1,0 +1,207 @@
+[
+    {
+        "path": "types-of-housing-assistance",
+        "template": "PostPage",
+        "metadata": {
+            "title": "Types of Housing Assistance",
+            "description": "Learn about different types..."
+        }
+    },
+    {
+        "path": "section-8-voucher-information-2",
+        "template": "PostPage"
+    },
+    {
+        "path": "vec-crm-irs-refund",
+        "template": "B2bPage",
+        "vector": "bdb0efa0-2217-452b-a169-b06c07aebc45"
+    },
+    {
+        "path": "vec-crm-irs-refund",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-ebt-food-delivery",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-unclaimed-assets",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-gov-cell-phone",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-cash-assistance",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-rental-relief",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-comapre-credit-card-rewards",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-rent-with-utilities",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-housing-assistance",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-checking-or-savings-accounts",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-apartment-listings",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-stimulus",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-benefits-for-food-assistance",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-tax-credits-and-deductions",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-top-of-housing-list",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-track-tax",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-unclaimed-credit-union-failures-money",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-dental-implants",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-freetaxes",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-top-of-the-list",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-help-paying-bills",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-subsidized-housing",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-assisted-living",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-benefits-for-housing",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-help-paying-for-internet",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-child-tax-credit",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-unclaimed-money-from-employers",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-top-paying-jobs-degree",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-workers-compensation",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-work-agencies",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-unclaimed-insurance-money",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-unclaimed-tax-refund-money",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-payday-loans",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-unemployment-email",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-benefits-for-debt",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-get-a-debit-card",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-wrongful-termination",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-student-loan-forgiveness",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-resume-help",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-get-a-personal-loan",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-online-courses",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-low-income-medical-insurance",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-life-insurance",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-cobra-health-insurance",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-checking-account",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-career-training-online",
+        "template": "B2bPage"
+    },
+    {
+        "path": "vec-crm-utility-assistance",
+        "template": "B2bPage"
+    }
+]

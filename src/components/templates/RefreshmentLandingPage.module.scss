@@ -1,0 +1,39 @@
+@import "../../styles/refreshment/refreshment_variables.scss";
+
+.refreshmentHeroImage {
+    width: 55%;
+}
+
+.refreshmentHeader {
+    @media (max-width: 992px) {
+        background-color: $primary;
+
+        :global(.navbar-toggler-icon) {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+    }
+}
+
+.accordionButton {
+    .iconPlus {
+        display: block;
+    }
+
+    .iconLess {
+        display: none;
+    }
+
+    &[aria-expanded="true"] {
+        .iconPlus {
+            display: none;
+        }
+
+        .iconLess {
+            display: block;
+        }
+    }
+}
+
+.refreshmentSection {
+    background: linear-gradient(180deg, #000d83, #000748);
+}

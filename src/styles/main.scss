@@ -1,0 +1,21 @@
+@import "./refreshment/bootstrap";
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-display: optional;
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+    scroll-behavior: smooth;
+}
+
+body {
+    color: $dark;
+    overflow-x: hidden;
+}

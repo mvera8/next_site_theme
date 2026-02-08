@@ -1,0 +1,24 @@
+{
+    "site": {
+        "id": "143",
+        "domain": "section-8-apartments.org",
+        "name": "Section 8 Apartments",
+        "description": "Browse verified Section 8 approved apartments. Updated listings and trusted landlords."
+    },
+    "theme": {
+        "type": "refreshment"
+    },
+    "tools": {
+        "gtm": "GTM-KQN5V6S",
+        "gtag": "G-KRJ4TJVV7Y"
+    },
+    "compliance": {
+        "dba_name": "DM First Party Solutions, LLC",
+        "dba_address": "2803 Philadelphia Pike Suite B #594, Claymont, Delaware, 19703",
+        "email_support": "webmaster@dmfirstpartysolutions.com"
+    },
+    "hero": {
+        "title": "Better Understand the Section 8 Program",
+        "link": "/how-to-apply"
+    }
+}
