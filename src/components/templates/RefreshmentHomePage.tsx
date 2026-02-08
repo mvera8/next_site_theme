@@ -46,7 +46,15 @@ const bullets = [
 export default function RefreshmentHomePage({ title, domain, link }: { title: string, domain: string, link: string }) {
     return (
         <>
-            <section id="refreshment-home-wrapper" className={`${styles.refreshmentHomePageHero} wrapper position-relative remove-background-image`}>
+            <section
+                id="refreshment-home-wrapper"
+                className={`${styles.refreshmentHomePageHero} wrapper position-relative remove-background-image`}
+                style={
+                    {
+                        backgroundImage: `url(${withBasePath(`/refreshment/bg-intersect.svg`)})`,
+                    }
+                }
+            >
                 <Disclaimer bg={false} />
                 <Header />
                 <div className="mb-1 mb-md-5">
@@ -151,7 +159,14 @@ export default function RefreshmentHomePage({ title, domain, link }: { title: st
                     </div>
                 </div>
             </section>
-            <section className={`${styles.refreshmentHomePageSection} section pt-5 pt-md-0`}>
+            <section
+                className={`${styles.refreshmentHomePageSection} section pt-5 pt-md-0`}
+                style={
+                    {
+                        backgroundImage: `url(${withBasePath(`/refreshment/bg-wave.webp`)})`,
+                    }
+                }
+            >
                 <div className="">
                     <Offers />
                     <WantToLearnMore />
@@ -164,7 +179,14 @@ export default function RefreshmentHomePage({ title, domain, link }: { title: st
                     <div className="row align-items-center justify-content-center">
 
                         <div className="col-12 col-md-4">
-                            <div className={`${styles.refreshmentHomePagePosts} min-vh-100`}></div>
+                            <div
+                                className={`${styles.refreshmentHomePagePosts} min-vh-100`}
+                                style={
+                                    {
+                                        backgroundImage: `url(${withBasePath(`/refreshment/image_posts.webp`)})`,
+                                    }
+                                }
+                            />
                         </div>
 
                         <div className="col-12 col-md-4">
