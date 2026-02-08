@@ -97,11 +97,7 @@ export default function RefreshmentLandingPage({ children, title }: { children?:
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6 order-1 order-lg-2 px-0 px-lg-5">
-                                    <Vector
-                                        id="vector-refreshment"
-                                        campaign_id="80dad395-f076-4f76-8430-290883de98d9"
-                                        custom_vector_style="refreshment"
-                                    />
+                                    <Vector />
                                 </div>
                             </div>
                         </div>
