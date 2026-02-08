@@ -1,0 +1,156 @@
+$white: #fff;
+$gray-100: #fefefe;
+$gray-200: #f9f9fa;
+$gray-300: #eceff1;
+$gray-400: #dbe3e8;
+$gray-500: #fff9;
+$gray-600: #868e96;
+$gray-700: #66757f;
+$gray-800: #21272a;
+$gray-900: #2b2b2b;
+$gray-1000: #707070;
+$black: #000;
+
+$primary: #2c53ff;
+$secondary: #95ecff;
+$success: #19805d;
+$success-light: #4bcb3b;
+$danger: #dc3545;
+$warning: #ffde00;
+$warning-dark: #ffc107;
+$info: #2196f3;
+$light: $gray-700;
+$dark: #212529;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "light": $light,
+    "dark": $dark
+);
+
+// Typography
+$font-family-sans-serif: var(--font-open-sans), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+$font-size-base: 1.6rem;
+$font-weight-base: 400;
+$line-height-base: 1.7;
+$font-sizes: (
+    1: 2.5rem,
+    2: 2rem,
+    3: 1.85rem,
+    4: 1.7rem,
+    5: 1.5rem,
+    6: 1.4rem,
+    7: 1.2rem
+);
+
+$h1-font-size: 4rem; // about us title
+$h2-font-size: 3.4rem; // offer refreshment section title
+$h3-font-size: 2.2rem; // ty card
+$h4-font-size: 1.7rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+$headings-margin-bottom: 2rem;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+$headings-line-height: 1.2;
+
+// scss-docs-start display-headings
+$display-font-sizes: (
+    1: 5rem,
+    2: 4.2rem,
+    3: 3.2rem,
+    4: 2.2rem,
+);
+
+$display-font-family: $font-family-sans-serif;
+$display-font-weight: 700;
+$display-line-height: 1.2;
+
+// Grid breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$lead-font-size: 2rem;
+$lead-font-weight: 700;
+
+// Alerts
+$alert-padding-y: 1.6rem;
+$alert-padding-x: 2.3rem;
+$alert-margin-bottom: 4.5rem;
+$alert-border-radius: 2rem;
+$alert-border-width: 1px;
+
+// Border
+$border-radius: 7px;
+$border-radius-lg: 2rem;
+$border-radius-sm: 7px;
+
+// Buttons
+$btn-padding-y: 1.3rem;
+$btn-padding-x: 4rem;
+$btn-font-size: 1.6rem;
+$btn-font-weight: bold;
+$btn-line-height: 1.2;
+$btn-border-radius: 8rem;
+
+$btn-padding-y-lg: 1.5rem;
+$btn-padding-x-lg: 5rem;
+
+$btn-border-radius: 8rem;
+$btn-border-radius-sm: 2rem;
+$btn-border-radius-lg: 10rem;
+
+$transition-base: all 0.5s ease-in-out;
+
+// Containers
+$container-max-widths: (
+    sm: 300px,
+    md: 300px,
+    lg: 300px,
+    xl: 300px,
+    xxl: 1170px
+);
+
+$container-padding-x: 3rem;
+
+// Form
+$input-padding-y-lg: 0.75rem;
+$input-padding-x-lg: 1.5rem;
+
+// Links
+$link-decoration: underline;
+$link-color: $primary;
+
+// Navbar
+$nav-link-padding-y: 0.5rem;
+$nav-link-font-size: 1.4rem;
+$nav-link-font-weight: 500;
+$navbar-nav-link-padding-x: 1.7rem;
+
+$navbar-light-color: $gray-800;
+$navbar-light-hover-color: $secondary;
+
+$navbar-dark-color: $gray-500;
+$navbar-dark-hover-color: $gray-400;
+
+// Shadows
+$box-shadow: 0 16px 40px 0 rgba(169, 174, 224, .30196078431372547);
+
+// Toggler
+$navbar-toggler-padding-y: 0;
+$navbar-toggler-padding-x: 0;
+$navbar-toggler-font-size: 2.5rem;
+$navbar-toggler-border-radius: 0;
+$navbar-toggler-focus-width: 0;

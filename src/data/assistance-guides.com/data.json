@@ -1,0 +1,24 @@
+{
+    "site": {
+        "id": "380",
+        "domain": "assistance-guides.com",
+        "name": "Assistance Guides",
+        "description": "Learn how to apply for programs that can help you and your family with housing, food, and other essential needs."
+    },
+    "theme": {
+        "type": "refreshment"
+    },
+    "tools": {
+        "gtm": "GTM-NKJXJNN",
+        "gtag": "G-QHP6RN2N0F"
+    },
+    "compliance": {
+        "dba_name": "Assistance-Guides.com",
+        "dba_address": "1521 Concord Pike Ste 301 #285 Wilmington, DE 19803",
+        "email_support": "support@assistance-guides.com"
+    },
+    "hero": {
+        "title": "Better Understand the Assistance Programs",
+        "link": "/guides"
+    }
+}

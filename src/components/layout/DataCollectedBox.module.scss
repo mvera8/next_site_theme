@@ -1,0 +1,15 @@
+@import "../../styles/refreshment/_refreshment_variables.scss";
+
+.dataCollectedBox {
+    max-width: 44rem;
+
+    @media (max-width: 992px) {
+        background-color: $gray-200;
+        border: 1px solid rgba(127, 207, 223, .6);
+        border-radius: .8rem;
+        color: #66757f;
+        padding: 2.2rem 1.5rem;
+        max-width: 100%;
+        opacity: .95;
+    }
+}
